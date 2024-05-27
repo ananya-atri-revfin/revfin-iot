@@ -1,0 +1,129 @@
+#container{
+    margin-top: 0px;
+}
+
+#navbar {
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E8EAED;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+
+#menu{
+    padding-right: 24px;
+}
+
+#notif{
+    padding-right: 32px;
+}
+
+li {
+    padding-left: 1%;
+    padding-right: 1%
+}
+
+.rectangle {
+    height: auto;
+    align-items: center;
+    width: 500px;
+    background-color: #E8EAED;
+    border-radius: 12px;
+    display: flex;
+    padding: 12px 24px;
+    border: 1px solid var(--Base-Color-Stroke, #E8EAED);
+    background: var(--Base-Color-Row-Highlight, #FAFAFA);
+}
+
+.textstyle2{
+    color: var(--Fonts-Primary-Font, #1A1A1A);
+    /* font-family: "DM Sans"; */
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.name {
+    color: var(--Fonts-Primary-Font, #1A1A1A);
+    /* font-family: "DM Sans"; */
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.textstyle {
+    color: var(--Fonts-Secondary-Font, #4C4C4C);
+    /* font-family: "DM Sans"; */
+    font-family: sans-serif;
+    flex: 1 0 0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#sidebar {
+    width: 230px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-right: 1px solid #E8EAED;
+}
+
+#set {
+    color: var(--Fonts-Terirty, #9E9E9E);
+    /* font-family: "DM Sans"; */
+    font-family: sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    /* 120% */
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+
+.toalign {
+    padding-left: 12px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.svgalign {
+    padding-right: 20px;
+}
+
+#report {
+    color: #EE7C33;
+    background-color: #FCE5D6;
+    border-radius: 8px;
+}
+
+.info{
+   width: 200px;
+        padding-left: 5px;
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        align-items: center;
+}
+
+#main{
+    padding-top: 19px;
+    padding-left: 300px;
+}
+
+#mainimg{
+    padding:10%;
+}
